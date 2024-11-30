@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2a2a;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #47862a;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #47862a;
+  }
+  input[type="text"], input[type="url"] {
+    padding: 10px;
+    width: 70%;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .actions button {
+    background-color: #f44336;
+    margin-right: 5px;
+  }
+  .actions button.visit {
+    background-color: #2196F3;
+  }
+  
